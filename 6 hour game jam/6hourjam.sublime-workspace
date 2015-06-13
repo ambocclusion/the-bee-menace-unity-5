@@ -1,0 +1,788 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"On",
+				"OnLevelChange	LevelChanged"
+			],
+			[
+				"Dialgoe",
+				"DialogueEnded	DialogueEnded"
+			],
+			[
+				"Interface",
+				"InterfaceManager	InterfaceManager"
+			],
+			[
+				"Dialog",
+				"DialogueEnded	DialogueEnded"
+			],
+			[
+				"Dialoguer",
+				"DialoguerEvents	DialoguerEvents"
+			],
+			[
+				"Start",
+				"StartDialogue()	void"
+			],
+			[
+				"OnNPC",
+				"OnNPCStopTalk	OnNPCStopTalk"
+			],
+			[
+				"LookAt",
+				"LookAt(Vector3 worldPosition)	void"
+			],
+			[
+				"npc",
+				"NPCDirections	NPCDirections"
+			],
+			[
+				"TranslationColor",
+				"SenderTranslationColor	Color"
+			],
+			[
+				"Show",
+				"ShowHelp(string text)	void"
+			],
+			[
+				"Waiting",
+				"waitingForChoice	bool"
+			],
+			[
+				"Complete",
+				"CompleteObjective()	bool"
+			],
+			[
+				"Replace",
+				"Replace(string oldValue, string newValue)	string"
+			],
+			[
+				"_c",
+				"_currentChoiceHistory	List<int>"
+			],
+			[
+				"_current",
+				"_currentChoiceHistory	List<int>"
+			],
+			[
+				"cstates",
+				"ConversationStates	ConversationStates"
+			],
+			[
+				"SearchAttach",
+				"SearchAttachmentByName(string attachName, Transform parent)	GameObject"
+			],
+			[
+				"CurrentS",
+				"CurrentState	ConversationStates"
+			],
+			[
+				"GetCOmpon",
+				"GetComponent<T>()	T"
+			],
+			[
+				"Review",
+				"Review(DialoguerDialogues dialogue)	void"
+			],
+			[
+				"_Current",
+				"_currentSpeaker	int"
+			],
+			[
+				"onDialogue",
+				"onDialogueTextPhaseHandler(DialoguerTextData data)	void"
+			],
+			[
+				"ondialo",
+				"onDialogueTextPhaseHandler(DialoguerTextData data)	void"
+			],
+			[
+				"Wa",
+				"WAITING_FOR_SEND	ConversationStates"
+			],
+			[
+				"onDialogu",
+				"onDialogueTextPhaseHandler(DialoguerTextData data)	void"
+			],
+			[
+				"_",
+				"_currentDelay	float"
+			],
+			[
+				"Display",
+				"DisplayTexting(Dictionary<Languages, string> passage, string speaker)	void"
+			],
+			[
+				"Contin",
+				"ContinueDialogue(int choice)	void"
+			],
+			[
+				"_cur",
+				"_currentSpeaker	int"
+			],
+			[
+				"Init",
+				"InitializeNewDialogue(DialoguerDialogues dialogue)	void"
+			],
+			[
+				"COnta",
+				"ContactsPrefab	GameObject"
+			],
+			[
+				"Cleanup",
+				"CleanupList(GameObject listToClean)	void"
+			],
+			[
+				"Initia",
+				"InitializeNewDialogue()	void"
+			],
+			[
+				"DialoguerTextData",
+				"DialoguerTextData(string text, string themeName, bool newWindow, string name, string portrait, string metadata, string audio, float audioDelay, Rect rect, List<string> choices, int dialogueID, int nodeID)	DialoguerTextData(string text, string themeName, bool newWindow, string name, string portrait, string metadata, string audio, float audioDelay, Rect rect, List<string> choices, int dialogueID, int nodeID)"
+			],
+			[
+				"_curr",
+				"_currentConversationData	List<DialoguerTextData>"
+			],
+			[
+				"OnDial",
+				"onDialogueEnded()	void"
+			],
+			[
+				"onDia",
+				"onDialogueTextPhaseHandler(DialoguerTextData data)	void"
+			],
+			[
+				"Dialo",
+				"DialoguerTextData	DialoguerTextData"
+			],
+			[
+				"Current",
+				"CurrentDialogue	DialoguerDialogues"
+			],
+			[
+				"InitializeNew",
+				"InitializeNewDialogue(DialoguerDialogues dialogue)	void"
+			],
+			[
+				"Dialoguepanel",
+				"dialoguePanel	DialoguePanel"
+			],
+			[
+				"GetCOm",
+				"GetComponent<T>()	T"
+			],
+			[
+				"Dictio",
+				"Dictionary<TKey, TValue>()	Dictionary()"
+			],
+			[
+				"Playe",
+				"PlaySound(AudioClip sound, GameObject source = null, float volume = 1f, bool persistent = false, bool stopOtherSounds = true)	void"
+			],
+			[
+				"dialogue",
+				"dialoguePanel	DialoguePanel"
+			],
+			[
+				"curren",
+				"currentEntry	GameObject"
+			],
+			[
+				"gEtcompo",
+				"GetComponent<T>()	T"
+			],
+			[
+				"SearchAtta",
+				"SearchAttachmentByName(string attachName, Transform parent)	GameObject"
+			],
+			[
+				"bou",
+				"_boundsOverride	bool"
+			],
+			[
+				"Layout",
+				"VerticalLayoutGroup	VerticalLayoutGroup"
+			],
+			[
+				"attachmen",
+				"AttachmentMoveSpeed	float"
+			],
+			[
+				"Cont",
+				"ContinueDialogue(int choice)	void"
+			],
+			[
+				"Wai",
+				"WAITING_FOR_SEND	ConversationStates"
+			],
+			[
+				"W",
+				"WAITING_FOR_SEND	ConversationStates"
+			],
+			[
+				"Con",
+				"ContinueDialogue(int choice)	void"
+			],
+			[
+				"_Curren",
+				"_currentSpeaker	int"
+			],
+			[
+				"_Curre",
+				"_currentSpeaker	int"
+			],
+			[
+				"character",
+				"CharacterNames	string[]"
+			],
+			[
+				"currentSpeake",
+				"_currentSpeaker	int"
+			],
+			[
+				"Upp",
+				"UpperRight	TextAnchor"
+			],
+			[
+				"set",
+				"SetSiblingIndex(int index)	void"
+			],
+			[
+				"offset",
+				"offsetMin	Vector2 { get; set; }"
+			],
+			[
+				"Searc",
+				"SearchAttachmentByName(string attachName, Transform parent)	GameObject"
+			],
+			[
+				"_left",
+				"_leftPanelSpeakers	GameObject"
+			],
+			[
+				"Sta",
+				"StartDialogue(DialoguerDialogues dialogue)	void"
+			],
+			[
+				"IEnum",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"OSX",
+				"OSXWebPlayer	RuntimePlatform"
+			],
+			[
+				"OnLe",
+				"OnLevelStartLoad	LevelStartLoad"
+			],
+			[
+				"Print",
+				"Print(string log, Object source = null, DebugType type = DebugType.DEFAULT, bool consoleOutput = true)	void"
+			],
+			[
+				"Insta",
+				"Instance	DebugScreen { get; set; }"
+			],
+			[
+				"GetComp",
+				"GetComponent<T>()	T"
+			],
+			[
+				"StartCiri",
+				"StartCoroutine(IEnumerator routine)	Coroutine"
+			],
+			[
+				"Getcomp",
+				"GetComponent<T>()	T"
+			],
+			[
+				"_start",
+				"_startPosition	Vector3"
+			],
+			[
+				"Instantiate",
+				"Instantiate(Object original, Vector3 position, Quaternion rotation)	Object"
+			],
+			[
+				"GetPlayer",
+				"GetPlayer(int playerId)	Player"
+			],
+			[
+				"euler",
+				"eulerAngles	Vector3 { get; set; }"
+			],
+			[
+				"Euler",
+				"EulerAngles(Vector3 euler)	Quaternion"
+			],
+			[
+				"Quaternion",
+				"Quaternion(float x, float y, float z, float w)	Quaternion(float x, float y, float z, float w)"
+			],
+			[
+				"Clam",
+				"Clamp(float value, float min, float max)	float"
+			],
+			[
+				"Cla",
+				"Clamp(float value, float min, float max)	float"
+			],
+			[
+				"initial",
+				"initialPointValue"
+			],
+			[
+				"commen",
+				"commentaryOpen"
+			],
+			[
+				"player",
+				"playerscore"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Select Previous"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/6 hour game jam.sln",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/.gitignore",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/DialoguerExamples/_ExampleScene/Classes/DialoguerExampleStart.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/DialoguerExamples/NextGenRpg/Scripts/NextGenRpgGui.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/NPCs/NPC.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Asset Bundle Loader/ScriptsForAssetBundleSystem/AssetBundleLoadOperation.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Dialoguer/DialogueEditor/Scripts/Editor/GUI/DialogueEditorGUI.cs",
+		"/Users/Allen/Downloads/users_assetbundle-demo 2/demo/Assets/ScriptsForAssetBundleSystem/AssetBundleLoadOperation.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/Classes/DialoguePanel.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/Classes/PopupPanel.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/PanelElement.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/Classes/QuestPanel.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/MarchDemo.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Editor/ChangeMaterialTexturesToPVR.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/InterfaceManager.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/System/SceneManager.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Asset Bundle Loader/ScriptsForAssetBundleSystem/AssetBundleManager.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Quests/Core/Classes/Objective Types/EventObjective.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Quests/Core/Classes/Objective Types/Accessories/TriggerEventObjective.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/FullInspector2/Modules/Collections/Rotorz/Editor/ReorderableListControl.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Quests/Core/Classes/ObjectiveObject.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/LookAtHouseEventObjective.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Quests/Core/Classes/Objective Types/Accessories/Look at objective/LookAtCast.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/System/User Interaction/DoorIndicator.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/ConversationPanel/DialogueEngine.cs",
+		"/Users/Allen/Documents/Unity Projects/MMO/New Unity Project/Assets/Assets/Scripts/Gameplay/ThirdPersonUserControl.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Asset Bundle Loader/ScriptsForAssetBundleSystem/Editor/BuildScript.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/InitializeGame.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/CellPhoneButton.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/Classes/ContactsPanel.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Dialoguer/Dialoguer/Scripts/Core/Dialoguer.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/InterfaceElement.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/Classes/WordIndexPanel.cs",
+		"/Users/Allen/Library/Application Support/Sublime Text 3/Packages/OmniSharp/PrebuiltOmniSharpServer/config.json",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Language.sublime-project",
+		"/Users/Allen/Documents/Unity Projects/MMO/New Unity Project/New Unity Project.sln",
+		"/Users/Allen/Documents/Unity Projects/MMO/New Unity Project/Assets/Assets/Scripts/Gameplay/Character.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Quests/Core/Classes/Objective Types/DialogueObjective.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Core/Language/LanguageCore.cs",
+		"/Users/Allen/Documents/Unity Projects/MMO/New Unity Project/Assets/uMMO/DemoScenes/DemoScene1_Assets/scripts/game/Character.cs",
+		"/Users/Allen/Downloads/Torrents/AUTODESK MAYA 2015 MAC OSX XFORCE/x-force.nfo",
+		"/Users/Allen/Documents/Unity Projects/MMO/New Unity Project/Assets/uMMO/scripts/modules/Main/submods/SpawningMethod/implementation/uMMO_Main_SpawningMethod_DirectlyOnEstablishedConnectionSimpleDisconnect.cs",
+		"/Users/Allen/Documents/Unity Projects/MMO/New Unity Project/Assets/uMMO/DemoScenes/DemoScene1_Assets/scripts/ThirdPersonCamera_smooth.cs",
+		"/Users/Allen/Documents/Unity Projects/MMO/New Unity Project/Assets/uMMO/DemoScenes/DemoScene1_Assets/scripts/game/event/EventManager.cs",
+		"/Users/Allen/Documents/Unity Projects/MMO/New Unity Project/Assets/uMMO/scripts/modules/Main/submods/Custom/implementation/uMMO_Main_Custom_TEST1.cs",
+		"/Users/Allen/Documents/Unity Projects/MMO/New Unity Project/Assets/uMMO/DemoScenes/DemoScene1_Assets/scripts/game/RemotePlayer.cs",
+		"/Users/Allen/Documents/Unity Projects/MMO/New Unity Project/Assets/uMMO/DemoScenes/DemoScene1_Assets/scripts/game/Player.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Dialoguer/Dialoguer/Scripts/Utilities/DialoguerUtils.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/ConversationPanel/WorldDialogueInit.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/System/SoundManager.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Asset Bundle Loader/ScriptsForDemo/LoadScenes.cs",
+		"/Users/Allen/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Editor/GamesOfEdan/EditorUtilities.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/ConversationPanel/ConversationPanelGui.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Asset Bundle Loader/ScriptsForAssetBundleSystem/BaseLoader.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Plugins/Pixelplacement/iTween/iTween.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Project.sln",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/Classes/LoadingScreen.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/Loading Screen/LoadingSpin.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/System/StateManager.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Quests/Core/QuestManager.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/Classes/WelcomePanel.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/ElementAutoSpawner.cs",
+		"/Users/Allen/Downloads/users_assetbundle-demo/demo/Assets/ScriptsForDemo/LoadScenes.cs",
+		"/Users/Allen/Downloads/users_assetbundle-demo/demo/Assets/ScriptsForAssetBundleSystem/AssetBundleLoadOperation.cs",
+		"/Users/Allen/Downloads/users_assetbundle-demo/demo/Assets/ScriptsForAssetBundleSystem/BaseLoader.cs",
+		"/Users/Allen/Downloads/users_assetbundle-demo/demo/Assets/ScriptsForDemo/LoadAssets.cs",
+		"/Users/Allen/Downloads/users_assetbundle-demo/demo/Assets/ScriptsForDemo/LoadVariants.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Quiz/QuizEngine.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/Resources/Quiz1.xml",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Interface/Classes/QuizPanel.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Quests/Interactables/RefrigeratorInteractPartner.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/New Scripts/Quests/Interactables/RefrigeratorInteract.cs",
+		"/Users/Allen/Library/Application Support/Sublime Text 3/Packages/User/C#.sublime-settings",
+		"/Users/Allen/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Language.sublime-project",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Assets/Quiz/QuizEngine.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/Gunner/GunnerManager.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/Camera/CameraManager.cs",
+		"/Users/Allen/Documents/Unity Projects/2d gmae/New Unity Project/Assets/Gameplay/Player/Player Movement/PlayerMovement.cs",
+		"/Users/Allen/Documents/Unity Projects/2d gmae/New Unity Project/Assets/PlayerMovement.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/Player/Player Movement/PlayerMovement.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/Player/ModeManager.cs",
+		"/Users/Allen/Documents/Unity Projects/2d gmae/New Unity Project/Assets/Gameplay/Player/Shooting/PlayerShooting.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Rewired/Examples/ControlRemapping1/Scripts/ControlRemappingDemo1.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/Character Managers/StatsManager.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/Player/Shooting/PlayerShooting.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/AI/BaseAI.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/Enemy/EnemyCreationManager.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/AI/EnemyAI.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/Projectiles/Projectile.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/System/MainBehaviour.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Rewired/Examples/CustomControllersTilt/Scripts/CustomControllersTiltDemo.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Rewired/Examples/EightPlayers/Scripts/EightPlayersExample_Player.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Rewired/Examples/FallbackJoystickIdentification/Scripts/FallbackJoystickIdentificationDemo.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Rewired/Documentation/Html/BasicUsage.html",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/World/WorldMovement.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/UI/HealthManager.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/Character Managers/PlayerManager.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Scripts/Gameplay/Character Managers/EnemyManager.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/spacegame.sublime-project",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Space game.sln",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/language.sublime-project",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Interface/InterfaceElement.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Assets/Scripts/World/WorldMovement.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Assets/Scripts/Gameplay/Character Managers/PlayerManager.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Assets/Scripts/Gameplay/Player/Player Movement/PlayerMovement.cs",
+		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Assets/Scripts/Gameplay/Character Managers/StatsManager.cs",
+		"/Users/Allen/Documents/aiexample",
+		"/Users/Allen/Documents/Unity Projects/Space game/.gitignore",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Interface/Classes/WordIndexPanel.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Gameplay/Coin System/CoinHolder.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/QuestManager.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Objective Types/QuizObjective.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Objective Types/RedirectObjective.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Interface/Classes/QuizPanel.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/Quiz/QuizEngine.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Objective Types/Objective.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Interface/Classes/QuestPanel.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Interface/Classes/QuestInfoPanel.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Rules/Rule Types/ReturnOnComplete.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Rules/ObjectiveRule.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Rules/Rule Types/CancelAltObjective.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Quest.cs",
+		"/Users/Allen/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Allen/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Allen/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Rules/Rule Types/OptionalQuest.cs"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dialogueended",
+			"_currentdelay",
+			"textdelay",
+			"renderer",
+			"“",
+			"pvr",
+			"peekactive",
+			"statpeekactive",
+			"showtranslation",
+			"step",
+			"waitingforchoice",
+			"desiredposition[_textingbounds]",
+			"opentexting",
+			"hidechat",
+			"\"Next Button\"",
+			"currentchoice",
+			"waitingfordialogue",
+			"canprogress = true",
+			"preparing_",
+			"preparingnewtext",
+			"dialoguePanel",
+			"currentstate",
+			"isindialogue",
+			"waiting_for_send",
+			"helddata",
+			"canprogress = true",
+			"canprogress",
+			"addbutton",
+			"closepanel",
+			"ClosePanel",
+			"closepanel",
+			"cleanupdialogue",
+			"_currentpassage",
+			"_initializer",
+			"textdelay",
+			"canprogress",
+			"textdelay",
+			"audio",
+			"addattachment",
+			"dummypos",
+			"itween",
+			"_nameText",
+			"str_computer",
+			"camilla",
+			"eng",
+			"addrowofdialog",
+			"addrowof",
+			"dialoguer.init",
+			"buttonnexthit",
+			"showdialoguebox",
+			"_dialogue",
+			"adddialogue",
+			"dialoguer",
+			"itween",
+			".ending",
+			"buttonnexthit",
+			"buttonreviewhit",
+			"review",
+			"revew",
+			"buttonnexthit",
+			"bracestyle\": 3",
+			";\n",
+			"		\n",
+			"space",
+			"EventTriggerType",
+			"	/// <param name=\"callback\"></param>\n	protected void SetEventTrigger(EventTrigger eventTrigger, EventTriggerType type, UnityEngine.Events.UnityAction<BaseEventData> callback) {\n",
+			"spaces",
+			".x",
+			"PlayerInput.y = -Input.GetAxis(\"Vertical\"));",
+			"();\n",
+			"0",
+			"();\n",
+			"showhint",
+			"commentary",
+			"togglepeek",
+			"togglepeek\\",
+			"togglepeek",
+			"activatestatpeek",
+			"stat",
+			"lastobjective",
+			"+c",
+			"comment"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"GetComponent<Renderer>()",
+			"\"",
+			"png",
+			"bracestyle\": 2",
+			".y",
+			"if(PlayerInput.x != 0.0f && _lastInput.x != PlayerInput.x && _lastInput.x < PlayerInput.x || PlayerInput.x != 0.0f && _lastInput.x != PlayerInput.x && _lastInput.x > PlayerInput.x)\n			_movement.x = 0.0f;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 77.0
+	},
+	"pinned_build_system": "",
+	"project": "6hourjam.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
