@@ -8,10 +8,13 @@ public class CharacterControl : MonoBehaviour {
 	public Transform mainCamera;
 	private CharacterController _characterController;
 
+	private Vector3 startPos = new Vector3();
+
 	// Use this for initialization
 	void Start () {
 
 		_characterController = GetComponent<CharacterController>();
+		startPos = transform.position;
 	
 	}
 	
@@ -28,6 +31,7 @@ public class CharacterControl : MonoBehaviour {
 		transform.LookAt(faceDir);
 
 		_characterController.Move(new Vector3(mainCamera.forward.x * (playingInput.x * PlayerSpeed), 0, mainCamera.transform.forward.z * (playingInput.y * PlayerSpeed)));
+		transform.position = new Vector3(transform.position.x, startPos.y, transform.position.z);
 
 		if(firingInput != 0 && _lastFire != firingInput)
 			Fire();
