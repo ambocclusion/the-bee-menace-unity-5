@@ -10,6 +10,9 @@ public class CharacterControl : MonoBehaviour {
 
 	private Vector3 startPos = new Vector3();
 
+	public GameObject AttackPrefab;
+	public Transform AttackOrigin;
+
 	// Use this for initialization
 	void Start () {
 
@@ -30,10 +33,10 @@ public class CharacterControl : MonoBehaviour {
 
 		transform.LookAt(faceDir);
 
-		_characterController.Move(new Vector3(mainCamera.forward.x * (playingInput.x * PlayerSpeed), 0, mainCamera.transform.forward.z * (playingInput.y * PlayerSpeed)));
+		_characterController.Move(new Vector3((mainCamera.forward.x * (playingInput.x * PlayerSpeed)) * Time.deltaTime, 0, (mainCamera.transform.forward.z * (playingInput.y * PlayerSpeed)) * Time.deltaTime));
 		transform.position = new Vector3(transform.position.x, startPos.y, transform.position.z);
 
-		if(firingInput != 0 && _lastFire != firingInput)
+		if(ScoreKeeper.Instance.SpecialCharge == 100.0f && firingInput != 0 && _lastFire != firingInput)
 			Fire();
 
 		_lastFire = firingInput;
@@ -43,6 +46,14 @@ public class CharacterControl : MonoBehaviour {
 	void Fire(){
 
 		GetComponent<Animator>().SetTrigger("fire");
+		Invoke("CreatePrefab", .65f);
+		ScoreKeeper.Instance.SpecialCharge = 0.0f;
+
+	}
+
+	void CreatePrefab(){
+
+		Instantiate(AttackPrefab, AttackOrigin.position, Quaternion.identity);
 
 	}
 }
