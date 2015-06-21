@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"POwe",
+				"ActivatePowerup(Powerups power)	void"
+			],
+			[
+				"POwer",
+				"PowerupManager	PowerupManager"
+			],
+			[
+				"Special",
+				"SpecialCharge	float"
+			],
+			[
+				"Clamp",
+				"Clamp(float value, float min, float max)	float"
+			],
+			[
+				"Inverse",
+				"InverseTransformPoint(Vector3 position)	Vector3"
+			],
+			[
+				"Transform",
+				"TransformPoint(float x, float y, float z)	Vector3"
+			],
+			[
+				"Looka",
+				"LookAt(Vector3 worldPosition)	void"
+			],
+			[
 				"On",
 				"OnLevelChange	LevelChanged"
 			],
@@ -348,9 +376,10 @@
 	"buffers":
 	[
 		{
+			"file": "Assets/Assets/Scripts/CharacterControl.cs",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1601,
 				"line_ending": "Unix"
 			}
 		}
@@ -408,6 +437,24 @@
 	],
 	"file_history":
 	[
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Assets/Scripts/PowerupManager.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Solar/Assets/Assets/Scripts/Gameplay/Level Editing/ObjectPlacer.cs",
+		"/Users/Allen/Documents/Work/Interplay/Projects/Solar/Assets/Assets/Scripts/Interface/Classes/PlacedSettings.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Assets/Scripts/PowerupTrigger.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Assets/Scripts/BuildingSpawner.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Assets/Scripts/SpecialAttack.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Standard Assets/ScoreKeeper.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Standard Assets/CoolText.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Assets/Editor/ReplaceGameObjects.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Assets/Scripts/CameraControl.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/UnityDebrisSystem/Debris.js",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Standard Assets/Destructible.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/UnityDebrisSystem/Examples/ExampleScripts/UDS_Projectile.js",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/UnityDebrisSystem/Readme.txt",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Assets/Scripts/ScoreKeeper.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Assets/Scripts/Destructible.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/Assets/Assets/Scripts/Test.cs",
+		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/6hourjam.sublime-project",
 		"/Users/Allen/Documents/Unity Projects/6 hour game jam/6 hour game jam/6 hour game jam.sln",
 		"/Users/Allen/Documents/Unity Projects/6 hour game jam/.gitignore",
 		"/Users/Allen/Documents/Work/Interplay/Projects/Language/Project/Assets/DialoguerExamples/_ExampleScene/Classes/DialoguerExampleStart.cs",
@@ -517,25 +564,7 @@
 		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Assets/Scripts/Gameplay/Player/Player Movement/PlayerMovement.cs",
 		"/Users/Allen/Documents/Unity Projects/Space game/Space game/Assets/Assets/Scripts/Gameplay/Character Managers/StatsManager.cs",
 		"/Users/Allen/Documents/aiexample",
-		"/Users/Allen/Documents/Unity Projects/Space game/.gitignore",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Interface/Classes/WordIndexPanel.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Gameplay/Coin System/CoinHolder.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/QuestManager.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Objective Types/QuizObjective.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Objective Types/RedirectObjective.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Interface/Classes/QuizPanel.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/Quiz/QuizEngine.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Objective Types/Objective.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Interface/Classes/QuestPanel.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Interface/Classes/QuestInfoPanel.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Rules/Rule Types/ReturnOnComplete.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Rules/ObjectiveRule.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Rules/Rule Types/CancelAltObjective.cs",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Quest.cs",
-		"/Users/Allen/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/Allen/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/Allen/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/Allen/Documents/Work/Interplay/Projects/Learning/Learning/Assets/New Scripts/Quests/Core/Classes/Rules/Rule Types/OptionalQuest.cs"
+		"/Users/Allen/Documents/Unity Projects/Space game/.gitignore"
 	],
 	"find":
 	{
@@ -553,6 +582,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"timer",
 			"dialogueended",
 			"_currentdelay",
 			"textdelay",
@@ -637,11 +667,12 @@
 			"comment"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"RoundTime",
 			"GetComponent<Renderer>()",
 			"\"",
 			"png",
@@ -663,23 +694,29 @@
 			[
 				{
 					"buffer": 0,
+					"file": "Assets/Assets/Scripts/CharacterControl.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1601,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1098,
+								1098
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"oops":
+							{
+								"1405,1417": "Unexpected symbol `)''",
+								"1418,1419": "Unexpected symbol `)''"
+							},
+							"syntax": "Packages/C#/C#.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -742,7 +779,7 @@
 	"project": "6hourjam.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -779,7 +816,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 250.0,
 	"status_bar_visible": false,
 	"template_settings":
